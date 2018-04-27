@@ -1,0 +1,348 @@
+/*Shared Styles*/
+
+body{
+    padding: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    background-image: url("../images/triangular.png");
+}
+
+header{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 70px;
+    font-family: 'Georgia', Times, 'Times New Roman' , serif;
+    background-color: #ffffff;    
+}
+
+.name{
+    max-width: 960px;
+    background-color: #ffffff;
+    margin: 0 0 0 10px;
+}
+
+h1{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+    background-color: #4aaaa5;
+    padding: 21.655px;
+    width: 228px;
+    color: #ffffff;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}   
+
+nav{
+     float: right;
+     margin-top: 24px;    
+}
+
+nav a{
+    font-size: 15px;
+    color: #666666;
+    text-decoration: none;
+    padding:10px;
+}
+nav a:hover { 
+    color: #4aaaa5; 
+    background-color: #9b9b9b2f;
+}
+
+.main-content{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 920px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h2{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    color: #4aaaa5;
+    border-bottom: #80808087;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding-bottom: 17px;
+}
+
+footer{
+    padding-top: 30px;
+    color:#ffffff;
+    text-align: center;
+    font-size: 12px;
+    background-color: #666666;
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: #4aaaa5;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left:0;
+    right:0;
+    clear: left;
+}
+
+/*About Me page*/
+
+#main-bio{
+   overflow: auto; 
+}
+
+#bio-image{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    margin-right: 40px;
+}
+
+p1{
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+    color:#666666;
+}
+p1::selection {
+    color: #ffffff;
+    background: #4aaaa5;
+}
+
+/*Following are Portfolio Gallery Styles*/
+
+#image1{
+    width: 225px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#image2{    
+    width: 225px;
+    position: relative;
+    margin-bottom: 20px;       
+}
+
+#image3{
+    width: 225px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#image4{
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+    left: 275px;
+    bottom: 531px; 
+}
+
+#image5{
+    float: left;
+    bottom: 355px;
+    left: 50px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/*Portfolio Gallery Images Tags Styles*/
+
+#tag1{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    padding: 0;
+    width: 100%;
+}  
+    
+#tag2{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    padding: 0;
+    width: 100%;
+}  
+
+#tag3{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    padding: 0;
+    width: 100%;
+}  
+
+#tag4{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    padding: 0;
+    width: 100%;
+}  
+
+#tag5{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    padding: 0;
+    width: 100%;
+} 
+
+/*Portfolio Gallery Images Styles*/
+
+#misty{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#misty:hover + #tag1{
+    visibility: hidden;
+    
+}
+
+#city{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#city:hover + #tag2{
+    visibility: hidden;
+}
+
+#axe{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#axe:hover + #tag3{
+    visibility: hidden;
+}
+
+#mountains{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mountains:hover + #tag4{
+    visibility: hidden;
+}
+
+#lightning{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lightning:hover + #tag5{
+    visibility: hidden;
+}
+
+/*Portfolio Gallery Tag Text Styles*/
+
+h3{
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;  
+}
+
+/*Contact Page Styles*/
+
+label{
+    color: #666666;
+}
+
+#contact{
+    width: 100%;
+    height: 25px;
+    color:#666666;
+    margin-bottom: 16px;
+}
+
+#address{
+    width: 100%;
+    height: 25px; 
+    color:#666666;
+    margin-bottom: 16px;
+}
+
+#message{
+    width: 100%;
+    height: 200px;
+    color:#666666;
+    margin-bottom: 16px;
+}
+
+#submit{
+    text-align: center;
+    padding:10px;
+    border: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100px;
+}
+
+#submit:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media screen and (max-width:980px) {
+.main-content{max-width:675px; margin-left: 32px;}
+h1{margin-left: 24px;
+
+}
+
+}
+
+@media screen and (max-width:768px) {
+    .main-content{margin-left: 24px;}
+    h1{margin-left:14px;}
+    nav a{margin-right:15px;}
+    
+}
+@media screen and (max-width:640px) {
+    .main-content{max-width:440px;}
+    h2{margin:0 20px 25px 20px}
+    #bio-image{margin:0 20px 25px 20px}
+    p1{margin:0 20px 25px 20px}
+    h1{margin-left:-14px;
+        width: 100%;
+        text-align: center;
+    }
+    form{padding: 0px 20px 0px 20px;}
+    #image1{margin: 0 20px 20px 20px;}
+    #image2{margin: 0 20px 20px 20px;}
+    #image3{margin: 0 20px 20px 20px;}
+    #image4{float:none;
+    left:0; 
+    bottom: 0;
+    margin: 0 20px 20px 20px;
+    width:225px;
+    }
+#image5{float:none;
+    left:0; 
+    bottom: 0;
+    margin: 0 20px 20px 20px;
+    width:225px;
+}
+footer{position: sticky;}
+
+nav{position: absolute;
+    margin-top: 72px;
+    margin-left: 166.83px;
+}
+.name{position:relative;
+}
+header {
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+}
+}
