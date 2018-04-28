@@ -1,5 +1,5 @@
 /*Shared Styles*/
-
+* {box-sizing: border-box;}
 body{
     padding: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -12,7 +12,8 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 70px;
     font-family: 'Georgia', Times, 'Times New Roman' , serif;
-    background-color: #ffffff;    
+    background-color: #ffffff;
+    margin-bottom: 35px;    
 }
 
 .name{
@@ -33,12 +34,13 @@ h1{
     color: #ffffff;
     float: left;
     margin: 0 auto;
-    margin-bottom: 35px;
+    
 }   
 
 nav{
      float: right;
-     margin-top: 24px;    
+    
+     
 }
 
 nav a{
@@ -90,6 +92,12 @@ footer{
     left:0;
     right:0;
     clear: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /*About Me page*/
@@ -296,14 +304,21 @@ h3{
 
 @media screen and (max-width:980px) {
 .main-content{max-width:675px; margin-left: 32px;}
-h1{margin-left: 24px;}
-
+h1{margin-left: 24px;
+    width:auto;}
+nav{
+    margin-right: 50px;
+    line-height: 65px;}
     }
 
 @media screen and (max-width:768px) {
     .main-content{margin-left: 24px;}
-    h1{margin-left:14px;}
-    nav a{margin-right:15px;}
+    h1{margin-left:14px;
+    width:auto;
+}
+    nav{margin-right: 60px;
+        line-height: 65px;}
+   nav a{float: none;}
     
     }
 @media screen and (max-width:640px) {
@@ -337,15 +352,17 @@ h1{margin-left: 24px;}
     }
     footer{position: sticky;}
 
-    nav{position: absolute;
-    margin-top: 72px;
-    margin-left: 166.83px;
+    nav{float:none;
+    text-align: center;
+    margin:auto;
+    line-height: 2;
     }
-    .name{position:relative;
+    .name{
+        margin-left: 0;
     }
     header {
     padding-bottom: 35px;
-    margin-bottom: 35px;
+    margin-bottom: 70px;
     position:static;
     }
     }
